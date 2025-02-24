@@ -1,0 +1,18 @@
+<h1>Answer view</h1>
+
+<div class="container">
+<div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header bg-primary">You</div>
+  <div class="card-body bg-primary">
+    <p class="card-text bg-primary"><%= @question %></p>
+  </div>
+</div>
+<div class="card text-bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header bg-info">Stupid coach</div>
+  <div class="card-body bg-info">
+    <p class="card-text bg-info"><%= @answer %></p>
+  </div>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
+</div>
